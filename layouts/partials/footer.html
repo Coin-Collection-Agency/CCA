@@ -1,0 +1,38 @@
+
+<div class="top-hero-learn h-64">
+
+</div>
+<footer class="">
+    <div class="flex flex-col md:flex-row">
+        <div class="w-full md:w-1/2 bg-primaryBlack px-14 py-20 text-white space-y-8 text-center md:text-left">
+            <a href="/" class="text-3xl font-poppins">
+                COPYRIGHT
+            </a>
+            <p class="font-merri text-xs">All copyright, trade marks and all other intellectual property rights in the app and its content (including without limitation the app design, text, graphics and all software and source codes connected with the app) are owned by or licensed to Lorem Ipsum or otherwise used by Lorem Ipsum as permitted by law.<br/> 
+                <br>
+                In accessing the app you agree that you will access the content solely for your personal, non-commercial use. None of the content may be downloaded, copied, reproduced, transmitted, stored, sold or distributed without the prior written consent of the copyright holder. This excludes the downloading, copying and/or printing of pages of the app for personal, non-commercial home use only.</p>
+            <!-- <button class="bg-secondaryGreen text-white px-8 py-4 text-lg font-semibold hover:opacity-90 transition-all">Subscribe</button> -->
+        </div>
+        <div class="w-full md:w-1/2 bg-whiteBg p-14 flex items-center justify-around">
+            <div class="flex flex-col gap-y-4">
+                {{ range .Site.Menus.main }}
+                <a class="text-lg" href="{{ .URL }}">
+                    {{ if .Pre }}
+                    {{ $icon := printf "<i data-feather=\"%s\"></i> " .Pre | safeHTML }}
+                    {{ $icon }}
+                    {{ end }}
+                    {{ $text := print .Name | safeHTML }}
+                    {{ $text }}
+                </a>
+                {{ end }}
+            </div>
+            <div class="flex flex-col justify-center text-2xl gap-y-2">
+                <a href="#"><i class="fa-brands fab fab fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fa-brands fab fab fab fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fab fab fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fab fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="text-center bg-randomBlack text-whiteBg">Copyright &copy; {{ .Site.Title }}</div>
+</footer>

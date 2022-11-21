@@ -1,0 +1,28 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'Coin Collection Agency'
+
+
+[menu]
+
+  [[menu.main]]
+    name = "Learn"
+    pre = "Learn"
+    url = "/learn/"
+    weight = 1
+  [[menu.main]]
+    name = "Contact"
+    pre = "pen-tool"
+    url = "/contact/"
+    weight = 2
+  [[menu.main]]
+    name = "About"
+    pre = "tag"
+    url = "/about/"
+    weight = 3
+  [[menu.main]]
+    name = "Services"
+    pre = "services"
+    url = "/services/"
+    weight = 5
+
