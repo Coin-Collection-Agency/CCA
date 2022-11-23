@@ -6,21 +6,21 @@
 
 @layer components {
     .top-hero-learn {
-        background: url('../static/img/mesh.jpg') no-repeat;
+        background: url('https://github.com/Coin-Collection-Agency/CCA/blob/main/static/img/mesh.jpg') no-repeat;
         background-size: cover;
     }
     .top-hero-contact {
-        background: url('../static/img/laptop.jpg') no-repeat;
+        background: url('https://github.com/Coin-Collection-Agency/CCA/blob/main/static/img/laptop.jpg') no-repeat;
         background-size: cover;
         background-position: bottom;
     }
     .top-hero-about {
-        background: url('../static/img/graph.jpg') no-repeat;
+        background: url('https://github.com/Coin-Collection-Agency/CCA/blob/main/static/img/graph.jpg') no-repeat;
         background-size: cover;
         background-position: center;
     }
     .top-hero-services {
-        background: url('../static/img/crypto.jpg') no-repeat;
+        background: url('https://github.com/Coin-Collection-Agency/CCA/blob/main/static/img/crypto.jpg') no-repeat;
         background-size: cover;
         background-position: bottom;
     }
