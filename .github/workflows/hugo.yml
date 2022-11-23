@@ -28,7 +28,7 @@ jobs:
         run: npm install -D tailwindcss
   
       - name: Activate Tailwind CSS
-        run: npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+        run: npx tailwindcss -i ./src/input.css -o ./static/css/output.css --watch
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
