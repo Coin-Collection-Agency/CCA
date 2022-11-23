@@ -27,5 +27,5 @@ jobs:
           personal_token: ${{ secrets.TOKEN }}
           publish_dir: ./public
           #   keep_files: true
-          #   publish_branch: master
+          publish_branch: cca-deployment
           #   cname: example.com
