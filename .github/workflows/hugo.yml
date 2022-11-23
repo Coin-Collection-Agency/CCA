@@ -26,6 +26,7 @@ jobs:
 
       - name: Install Tailwind CSS
         run: npm install -D tailwindcss
+  
       - name: Activate Tailwind CSS
         run: npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
 
